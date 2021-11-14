@@ -1,28 +1,35 @@
-# Gold News
-Gold news is a free news website 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Gold News 
+![](images/Home.png)
+### If this project has helped you and you'd like to support my work, feel free to ♥️ Sponsor the project
+### A improved version 2 on the way 🎉
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+this is reactJs & bootstrap based news website. This website is fully responsive in any device. Data will fetch from api powered by [Newsapi](https://newsapi.org/). This means that you don't need to manage any database it can be customized and used by anybody simply by some changes in api through api the changes will be dynamically fed into the site. If you would like to use this project for your own personal project, read on to learn how to build your own copy.
 
-### `npm start`
+## Make it your own!
+### 1. Make sure you have what you need
+To build this website, you will need to have Node >=6 downloaded and installed on your machine. If you don't already have it, you can get it [HERE](https://nodejs.org/en/download/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 2. Clone repository
+Once you download nodejs in your machine all you have to do download my code by hitting the green "clone or download" button above and hit download zip.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3. Run following commands
+Next you need to run some commands in your terminal but terminal should be opnen that folder
+Lrt's install node_module
+```bash
+npm install
+```
+following command will install some dependencies
+```bash
+npm install --save react-infinite-scroll-component
+```
+```bash
+npm install --save react-top-loading-bar
+```
+## Last step
+Last step you are almost done you need to create a .env.local file in main directory 
+take your api key from [HERE](https://newsapi.org/)
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
